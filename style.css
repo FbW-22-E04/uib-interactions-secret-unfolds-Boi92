@@ -33,8 +33,7 @@ body{
 .container:hover .box-3 ,
 .container:hover .box-4{
     margin-left: 0px; 
-    transform: translateX(100%) rotate(90deg); 
-    
+    transform: translateX(100%) rotate(90deg);   
 }
 .box-1{
     background-color: steelblue;
@@ -66,3 +65,55 @@ body{
     position: absolute;
 }
 
+.box-5{
+    background-color: lightblue;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 12.5%;
+}
+.box-6{
+    background-color: lightgray;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 12.5%;
+    top: 50%;
+}
+.container:hover .box-5 ,
+.container:hover .box-6{
+    margin-left: 0px; 
+    transform: translateX(50%) rotate(180deg);
+}
+.box-7{
+    background-color: lightcoral ;
+    position: absolute;
+     width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 75%;
+    bottom: 50%;
+}
+.box-8{
+    background-color: lightyellow;
+    position: absolute;
+     width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 75%;
+}
+.container:hover .box-7,
+.container:hover .box-8{
+    margin-left: 0px; 
+    transform: translateX(-50%) rotate(180deg);
+}
