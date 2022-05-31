@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 10rem;
+}
+
+.container{
+    position:relative;
+    width: 80rem;
+    height: 40rem;
+    margin: 20rem auto;
+}
+
+.message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box{
+    width: 20rem;
+    height: 20rem;
+    transition-duration: 1.5s;
+    position: relative;
+    font-size: 4rem;
+}
+.container:hover .box-1 ,
+.container:hover .box-2{
+    margin-left: 0px; 
+    transform: translateX(-100%) rotate(90deg);
+}
+.container:hover .box-3 ,
+.container:hover .box-4{
+    margin-left: 0px; 
+    transform: translateX(100%) rotate(90deg);   
+}
+.box-1{
+    background-color: steelblue;
+    top: 0%;
+    left: 25%;
+    position: absolute;
+}
+
+.box-2{
+    background-color: dimgray;
+    top: 50%;
+    left: 25%;
+    position: absolute;
+
+}
+
+.box-3{
+    background-color:rosybrown;
+    right: 25%;
+    top: 0;
+    position: absolute;
+
+}
+
+.box-4{
+    background-color: yellow;
+    right: 25%;
+    top: 50%;
+    position: absolute;
+}
+
+.box-5{
+    background-color: lightblue;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-6{
+    background-color: lightgray;
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 12.5%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container:hover .box-5 ,
+.container:hover .box-6{
+    margin-left: 0px; 
+    transform: translateX(50%) rotate(360deg);
+    border-radius: 75%;
+
+}
+.box-7{
+    background-color: rgb(229, 194, 194) ;
+    position: absolute;
+     width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 75%;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-8{
+    background-color: lightyellow;
+    position: absolute;
+     width: 10rem;
+    height: 10rem;
+    transition-duration: .5s;
+    position: relative;
+    transition-delay: 1s;
+    left: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container:hover .box-7,
+.container:hover .box-8{
+    margin-left: 0px; 
+    transform: translateX(-50%) rotate(360deg);
+    border-radius: 75%;
+
+}
