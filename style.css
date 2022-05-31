@@ -24,6 +24,7 @@ body{
     height: 20rem;
     transition-duration: 1.5s;
     position: relative;
+    font-size: 4rem;
 }
 .container:hover .box-1 ,
 .container:hover .box-2{
@@ -74,6 +75,10 @@ body{
     position: relative;
     transition-delay: 1s;
     left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .box-6{
     background-color: lightgray;
@@ -85,14 +90,19 @@ body{
     transition-delay: 1s;
     left: 12.5%;
     top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container:hover .box-5 ,
 .container:hover .box-6{
     margin-left: 0px; 
-    transform: translateX(50%) rotate(180deg);
+    transform: translateX(50%) rotate(360deg);
+    border-radius: 75%;
+
 }
 .box-7{
-    background-color: lightcoral ;
+    background-color: rgb(229, 194, 194) ;
     position: absolute;
      width: 10rem;
     height: 10rem;
@@ -101,6 +111,9 @@ body{
     transition-delay: 1s;
     left: 75%;
     bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-8{
     background-color: lightyellow;
@@ -111,9 +124,14 @@ body{
     position: relative;
     transition-delay: 1s;
     left: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container:hover .box-7,
 .container:hover .box-8{
     margin-left: 0px; 
-    transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(360deg);
+    border-radius: 75%;
+
 }
